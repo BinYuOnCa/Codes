@@ -1,2 +1,24 @@
 # Codes
-Collections of common use codes
+Collections of common used codes:
+
+
+Oracle
+
+Python
+
+Pandas
+
+Go 
+
+Shell
+
+MachineLearning
+
+Visualization
+
+Hadoop
+
+Hive
+
+Spark
+
