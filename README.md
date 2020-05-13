@@ -1,5 +1,7 @@
 # Codes
-Collections of common used codes:
+CKnowledges
+
+This repository is the collections of common used codes, b:
 
 
 Oracle
@@ -22,3 +24,6 @@ Hive
 
 Spark
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzMjYyMTU5MDhdfQ==
+-->
