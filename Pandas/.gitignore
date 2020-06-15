@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+#user defined ignores
+db.info
 
 # C extensions
 *.so
