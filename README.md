@@ -1,4 +1,4 @@
-# Knowledges
+# Knowledge
 
 This repository is the collections of 
 
@@ -24,5 +24,5 @@ Hive
 Spark
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NTA0MjI5XX0=
+eyJoaXN0b3J5IjpbLTE1MTI4NzU0OTYsODA2NTA0MjI5XX0=
 -->
