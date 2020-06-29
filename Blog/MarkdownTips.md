@@ -1,21 +1,22 @@
-# Markdown写作心得
-https://wu-kan.cn/_posts/2020-01-18-Markdown写作心得/
+## Markdown写作心得
+
+本文内容根据网友**[星合の空](https://wu-kan.cn/#/)**的[Blog](https://wu-kan.cn/_posts/2020-01-18-Markdown写作心得/) 整理。
 
 
-## 本地编辑器
+### 本地编辑器
 
-VsCode
+- VsCode
 	使用的本地编辑器是 VSCode，经常更新且集成 git 可以直接和 GitHub 上的仓库同步
 
-马克飞象
+- 马克飞象
     https://maxiang.io/
 	
 
 推荐一些 VSCode 的插件：
 
-	Markdown Preview Enhanced
+- Markdown Preview Enhanced
 
-	markdownlint:
+- markdownlint:
 
 		{
 		  "markdownlint.config": {
@@ -30,27 +31,25 @@ VsCode
 		  }
 		}
 
-
-	Prettier - Code formatter
+- Prettier - Code formatter
 	安装之后可以 Shift + Alt + F 一键格式化 Markdown 代码，非常舒服。
 
-图片插入
+### 图片插入
 
 图片小且数量比较多的一些图片建议压缩之后再使用 Base64 插入正文，而图片大且多次访问的时候使用图床。
 
-本地保存
-  简单
-  迁移风险、访问速度慢
-  建议初级使用
+#### 本地保存
+-  简单
+-  迁移风险、访问速度慢
+-  建议初级使用
 
-使用图床
+#### 使用图床
 
 使用图床，我这里给出一种新的方法：使用 GitHub Repo + CDN（如 jsDelivr）
 
-
-使用 Base64 编码后直接插入正文
+#### 使用 Base64 编码后直接插入正文
 
 将图片文件转成 Base64 格式有很多方法，这里随便给出一个：http://www.jsons.cn/img2base64/。
 
-推荐谷歌开源的在线图片压缩工具squoosh，我通常使用 Browser WebP 格式，得到的图片压缩效果比较好，所需要的配置也很少。
+推荐谷歌开源的**在线图片压缩工具**squoosh，我通常使用 Browser WebP 格式，得到的图片压缩效果比较好，所需要的配置也很少。
 
