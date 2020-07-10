@@ -16,6 +16,7 @@ This file collects referenced blogs/urls/ideas etc. when I build my blog, as wel
    4. [使用 Travis CI 自动更新 GitHub Pages](#使用-travis-ci-自动更新-github-pages)
 2. [彻底搞懂如何使用Hexo+GitHubPages搭建个人博客](#彻底搞懂如何使用hexogithubpages搭建个人博客)
    1. [配置sitemap，让搜索引擎检索到博客](#配置sitemap让搜索引擎检索到博客)
+3. [A Guide Of Making Your Personal Blog 系列](#a-guide-of-making-your-personal-blog-系列)
 
 
 ## 利用GitHub Pages搭建个人Blog
@@ -337,4 +338,23 @@ Shell completion not installed. Would you like to install it now? |y| y
 ### 配置sitemap，让搜索引擎检索到博客
 
 
+
+
+## A Guide Of Making Your Personal Blog 系列
+[原文](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-1/)
+
+[Part 1：概述](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-1/)
+[Part 2：域名与服务器](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-2/)
+[Part 3：域名解析](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-3/)
+[Part 4：博客框架](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-4/)
+[Part 5：博客主题](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-5/)
+[Part 6：自动部署](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-6/)
+[Part 7：总结与参考资料](https://sketchk.xyz/2017/03/24/A-Guide-Of-Making-Your-Personal-Blog-Part-7/)
+
+预期目标是你的博客可以有以下几个特点：
+- 有一个你亲自挑选的域名
+- 使用 GitHub Pages 服务解决服务器的问题
+- 使用 Hexo 框架来做你的博客系统
+- 使用 NexT 主题并做一些自定义的设定
+- 使用 Travis CI 实现博客的自动部署
 
