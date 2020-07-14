@@ -3,20 +3,14 @@
 This file collects referenced blogs/urls/ideas etc. when I build my blog, as well as some of my operation logs.
 
 
-1. [利用GitHub Pages搭建个人Blog](#利用github-pages搭建个人blog)
-   1. [目标和策略](#目标和策略)
-   2. [先决要求和初始化配置](#先决要求和初始化配置)
-      1. [配置Git](#配置git)
-      2. [初始化Hexo](#初始化hexo)
-      3. [初始化NexT](#初始化next)
-      4. [初始配置文件](#初始配置文件)
-   3. [个性化和功能插件配置](#个性化和功能插件配置)
-      1. [主题配置](#主题配置)
-      2. [LeanCloud阅读计数插件](#leancloud阅读计数插件)
-   4. [使用 Travis CI 自动更新 GitHub Pages](#使用-travis-ci-自动更新-github-pages)
-2. [彻底搞懂如何使用Hexo+GitHubPages搭建个人博客](#彻底搞懂如何使用hexogithubpages搭建个人博客)
-   1. [配置sitemap，让搜索引擎检索到博客](#配置sitemap让搜索引擎检索到博客)
-3. [A Guide Of Making Your Personal Blog 系列](#a-guide-of-making-your-personal-blog-系列)
+- [利用GitHub Pages搭建个人Blog](#利用github-pages搭建个人blog)
+  - [目标和策略](#目标和策略)
+  - [先决要求和初始化配置](#先决要求和初始化配置)
+  - [个性化和功能插件配置](#个性化和功能插件配置)
+  - [使用 Travis CI 自动更新 GitHub Pages](#使用-travis-ci-自动更新-github-pages)
+- [彻底搞懂如何使用Hexo+GitHubPages搭建个人博客](#彻底搞懂如何使用hexogithubpages搭建个人博客)
+  - [配置sitemap，让搜索引擎检索到博客](#配置sitemap让搜索引擎检索到博客)
+- [A Guide Of Making Your Personal Blog 系列](#a-guide-of-making-your-personal-blog-系列)
 
 
 ## 利用GitHub Pages搭建个人Blog
@@ -275,17 +269,6 @@ comments: false
 
 #### 主题配置
 TBD
-
-
-
-#### LeanCloud阅读计数插件
-
-```
-~/GitRepos/Homepage$hexo lc-counter r ben-hexo-lc bXDtKDB0eLNbbwMxW4v
-INFO  ben-hexo-lc is successfully signed up
-```
-
-
 
 ### 使用 Travis CI 自动更新 GitHub Pages
 
