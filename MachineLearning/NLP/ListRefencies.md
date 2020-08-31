@@ -6,14 +6,15 @@ https://medium.com/towards-artificial-intelligence/natural-language-processing-n
 NLTK
 Word Cloud
 Stemming vs Kennatuzation
-TF-IDF : 
-    TF: Term Frequence  
-    $$ TF=\frac{Frequency\ of\ the\ word\ in\ the\ sentence}{Total\ number\ of\ words\ in\ the\ sentence} $$
-    IDF: Inverse Document Frequency 
+TF-IDF :
+* TF: Term Frequence  
+    $$ TF=\frac{Frequency\ of\ the\ word\ in\ the\ sentence}{Total\ number\ of\ words\ in\ the\ sentence}
+    $$
+* IDF: Inverse Document Frequency 
     $$ IDF=\frac{Total\ number\ of\ sentences}{Number\ of\ sentences\ containing\ that\ word} $$
-    log format IDF:
+* log format IDF:
     $$ IDF=log(\frac{Total\ number\ of\ sentences\ +1 }{Number\ of\ sentences\ containing\ that\ word\ +1} )$$
-    Final TF-IDF Value:
+* Final TF-IDF Value:
     $$ TF-IDF=(TF)*(IDF + 1 )$$
 
 
