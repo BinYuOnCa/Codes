@@ -1,0 +1,50 @@
+docker run -d --name hanesPSQL --mount type=bind,source=/c/Users/BY1711/PostgreSQLDB,target=/hanesDB -p 5432:5432 -e POSTGRES_PASSWORD=AlexHPL1706 postgres 
+
+
+chown postgres:postgres /hanesDB
+
+
+
+PSQL ----
+su postgres
+
+
+show data_directory;
+ /var/lib/postgresql/data
+
+
+create tablespace ts_hanes location '/hanesDB';
+
+ create database hanes tablespace ts_hanes;
+
+ 
+create table aisles ( AisleID int, 	FriendlyName char(20),	RowIdx int, 	ColumnIdx int );
+insert into  aisles values (1,	'F1B015_00',	15,	0);
+
+insert into aisles values( 2,    '015-01',	15,	1);
+insert into aisles values( 3,    '015-02',	15,	2);
+insert into aisles values( 4,    '016-00',	16,	0);
+insert into aisles values( 5,    '016-01',	16,	1);
+insert into aisles values( 6,    '016-02',	16,	2);
+insert into aisles values( 7,    '016-03',	16,	3);
+insert into aisles values( 8,    '017-00',	17,	0);
+insert into aisles values( 9,    '017-01',	17,	1);
+insert into aisles values( 10,   '017-02',	17,	2);
+insert into aisles values( 11,   '017-03',	17,	3);
+insert into aisles values( 12,   '018-00',	18,	0);
+insert into aisles values( 13,   '018-01',	18,	1);
+insert into aisles values( 14,   '018-02',	18,	2);
+insert into aisles values( 15,   '018-03',	18,	3);
+insert into aisles values( 16,   '019-00',	19,	0);
+insert into aisles values( 17,   '019-01',	19,	1);
+insert into aisles values( 18,   '019-02',	19,	2);
+insert into aisles values( 19,   '019-03',	19,	3);
+insert into aisles values( 20,   '019-04',	19,	4);
+
+
+select pc."﻿POI_ID" , bc.rackfriendlyname , ec.* 
+from execlogs_csv ec
+join barcode_csv bc on bc."﻿barcode"  = ec."Location" 
+join pois_csv pc  on pc.friendly_name  = bc.rackfriendlyname 
+order by ec."﻿ExecID"  ;
+
