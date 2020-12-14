@@ -1,5 +1,7 @@
 # Demo of Partition
 
+The following demo code runs well in [Oracle Live SQL](https://livesql.oracle.com/apex/f?p=590:1:0)
+
 ## Prepare a table with partition by range interval
 
 ```sql 
