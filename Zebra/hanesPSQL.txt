@@ -1,8 +1,11 @@
-docker run -d --name hanesPSQL --mount type=bind,source=/c/Users/BY1711/PostgreSQLDB,target=/hanesDB -p 5432:5432 -e POSTGRES_PASSWORD=AlexHPL1706 postgres 
-
 
 chown postgres:postgres /hanesDB
 
+
+docker run -d --name hanesPSQL --mount type=bind,source=/c/Users/BY1711/PostgreSQLDB,target=/hanesDB -p 5432:5432 -e POSTGRES_PASSWORD=AlexHPL1706 postgres 
+
+docker start hanesPSQL
+docker exec -it hanesPSQL bash 
 
 
 PSQL ----
