@@ -58,7 +58,12 @@ set sqlprompt "_USER'@'_CONNECT_IDENTIFIER _PRIVILEGE>"
 
 set sqlprompt "&_user@&_CONNECT_IDENTIFIER>"
 
- 
+col contname new_value contname noprint
+select sys_context('userenv', 'con_name') as contname from dual;
+
+
+set sqlprompt "_USER'@'_CONNECT_IDENTIFIER _PRIVILEGE::&contname>"
+
 
 set serveroutput on size 1000000
 
